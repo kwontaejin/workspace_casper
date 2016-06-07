@@ -8,8 +8,8 @@ casper.userAgent('Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
 casper.start('https://member.ssg.com/m/member/login.ssg?retURL=http%3A%2F%2Fm.ssg.com%2F&t=login', function() {
 	this.echo('########## START ##########');
 	this.fill('form#login_form', {
-        mbrLoginId : 'lakeonthesky',
-        password : 'Kwontaejin1'
+        mbrLoginId : '',
+        password : ''
     }, true);
 });
 
