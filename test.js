@@ -20,8 +20,8 @@ function getLiList() {
 casper.start('https://www.google.co.kr/webhp?hl=ko', function() {
 	this.echo('########## START ##########');
 	this.fill('form#frmNIDLogin', {
-        id : 'lakeonthesky',
-        pw : 'Kwontaejin1!'
+        id : 'xxx',
+        pw : 'xxxxx!'
     }, false);
 });
 
